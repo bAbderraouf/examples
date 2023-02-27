@@ -34,7 +34,7 @@ int main()
 
     // chercher un elemement dans une map
     
-    it = dico.find("naissancee");
+    it = dico.find("age");
     if( it != dico.end() )
     {
         cout << it->first << "=> " << it->second  << endl;
