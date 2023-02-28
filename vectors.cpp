@@ -14,7 +14,6 @@ void main() {
 	//for (int n : numbers)
 	//	cout << n << endl;
 
-
 	//2. print vector elements with iterators
 	for (auto it = numbers.begin(); it != numbers.end(); it++) {
 		//cout << it << endl;

@@ -31,7 +31,6 @@ int main()
     for(it = dico.begin() , i = 0 ; it != dico.end() ; i++, it++)
         cout << i << " - dico(" << it->first << ") = " << it->second << endl;
 
-
     // chercher un elemement dans une map
     
     it = dico.find("age");
